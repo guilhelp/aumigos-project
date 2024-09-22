@@ -1,29 +1,20 @@
-Inventory app
-==================================
+# CRUD de Pets
 
-Solution code for Android Basics with Compose.
+Este projeto é um aplicativo Android que permite gerenciar informações de pets, incluindo nome, idade, raça, peso, data de nascimento e foto. Ele utiliza o padrão de arquitetura MVVM e a biblioteca Room para persistência de dados.
 
-Introduction
-------------
+## Funcionalidades
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+- **Cadastro de Pets**: Adicione novos pets com informações detalhadas.
+- **Edição de Pets**: Edite informações de pets já cadastrados.
+- **Exclusão de Pets**: Remova pets do cadastro.
+- **Listagem de Pets**: Visualize todos os pets cadastrados em uma lista.
+- **Upload de Imagem**: Selecione e faça upload de uma imagem do pet.
+- **Validação de Dados**: Campos obrigatórios e validação de idade.
 
-Pre-requisites
---------------
+## Tecnologias Utilizadas
 
-You need to know:
-- How to create and use composables.
-- How to navigate between composables, and pass data between them.
-- How to use architecture components including ViewModel, Flow, StateFlow and StateUi.
-- How to use coroutines for long-running tasks.
-- SQLite database and the SQLite query language
-
-
-Getting Started
----------------
-
-1. Download and run the app.
+- **Kotlin**: Linguagem de programação principal.
+- **Android Jetpack**: Componentes para gerenciamento de ciclo de vida e persistência.
+- **Room**: Biblioteca para persistência de dados local.
+- **Coil**: Biblioteca para carregamento de imagens.
+- **Jetpack Compose**: Biblioteca para criação de interfaces de usuário de forma declarativa.
